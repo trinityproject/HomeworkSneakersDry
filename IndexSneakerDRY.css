@@ -1,0 +1,197 @@
+a {
+    float: left;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: orange;
+}
+p {
+    display: inline-block;
+    text-decoration: none;
+	margin:inherit;
+    font-size: 9px;
+      font-family: Trebuchet;
+      color: white;
+}
+a:hover {
+    color: red;
+}
+h1 {
+  padding: 5px;
+  font-weight: bold;
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  float: left;
+  color: aquamarine;
+}
+h2 {
+  padding: 5px;
+  font-weight: bold;
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  float: right;
+  color: white;
+}
+h3 {
+  padding: 5px;
+  font-weight: bold;
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  float: center;
+  color: black;
+}
+body {
+  background-color: black;
+}
+.outerWhiteBox {
+	background-color: white;
+	display: inline-block;
+	width: 700px;
+	float: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	text-indent: none;
+	table-layout: fixed;
+}
+.whiteBox {
+	background-color: white;
+	display: inline-block;
+	width: 700px;
+	float: inherit;
+	padding: 14px 16px;
+	text-decoration: none;
+	text-indent: none;
+	table-layout: fixed;
+}
+.orangeBackground {
+  background-image:url(images/WebBackground.png);
+  display: inline-block;
+  width: 700px;
+  float: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  table-layout: fixed;
+}
+.innerOrangeBackground {
+  background-image:url(images/WebBackground.png);
+  display: inline-block;
+  width: 700px;
+  float: left;
+  padding: 14px 16px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  table-layout: fixed;
+}
+.button {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-size: 15px;
+  color: #0CC;
+  padding: 5px
+  border: 1px #444444 solid;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+.pinkContainer {
+  overflow:hidden;
+  background-color: #FCF;
+  display: inline-block;
+  width: 700px;
+  float: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  table-layout: fixed;
+}
+.leftColumn {
+  float: left;
+  width: 70%;
+  position: fixed;
+  left: -30px;
+}
+.leftColumn2 {
+  width: 200px;
+  margin: 0 0 0 30px;
+  background-color: red;
+}
+.rightColumn {
+  width: 200px;
+  margin: 0 0 0 30px;
+  background-color: blue;
+}
+.spare {
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	background: black;
+	color: aquamarine;
+	width: 10%;
+	height: 10px;
+	padding: 10px;
+	font-style: oblique;
+	font-family: sans-serif;
+	float: center;
+	margin: auto;
+	text-align: left;
+}
+.clickMe {
+	border:#CCC solid 2px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	color: orange;
+	height: 10px;
+	padding: 10px;
+	font-family: sans-serif;
+  text-decoration: none;
+	margin: 10px;
+	text-align: left;
+}
+.clickMe:hover {
+    color: red;
+    background-color: inherit;
+}
+.inline {
+  padding: 5px;
+  display: inline-block;
+  margin-left:10px;
+  margin-right: 10px;
+  border-top: solid black;
+  font-size: 15px;
+    float: left;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: white;
+}
+.inline2 {
+  padding: 20px;
+  display: inline-block;
+  margin-left:10px;
+  margin-right: 10px;
+  font-size: 15px;
+    float: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #60F;
+}
+.gradient {
+  background-color: black;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.example {
+  padding: 100px;
+  border: 2px dashed #ff0000;
+  margin-bottom: 50px;
+  }
+.textHere {
+	display: inline;
+	color: black;
+    height: 10px;
+    padding: 10px;
+    font-style: inherit;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	text-align:left
+}
+.right-align {
+    float: right;
+    padding-right: 10px;
+    text-decoration: none;
+	text-align: right;
+    border: 2px dashed #ff0000;
+}
