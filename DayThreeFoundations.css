@@ -1,0 +1,57 @@
+body {
+  background-color: black;
+}
+.page {
+  margin: 5% 22% 5% 22%;
+  background-color: white;
+}
+.H1 {
+    align-content: center;
+    display: bold; 20px black;
+    font-family: trebuchet;
+    font-variant: small-caps;
+}
+.inline {
+  display:inline-block;
+  margin: inherit;
+  padding: inherit;
+}
+.text {
+  display: inline;
+  float:right;
+}
+.container {
+  background-color: aqua;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.container2 {
+  background-color: pink;
+}
+.content {
+  margin-left: 30%;
+  padding: 5% 5% 0% 20%;
+}
+.image {
+  float:left;
+  margin: 5%;
+}
+.subContainer {
+display: inline;
+margin-left: 10%;
+margin-right: 10%;
+}
+.rightText {
+  display:inline;
+  margin-left: 40%;
+}
+
+}
+.gangShoes {
+  margin: 10%;
+  padding-left: 5%;
+}
+.leftColumn {
+    float: left;
+  }
+}

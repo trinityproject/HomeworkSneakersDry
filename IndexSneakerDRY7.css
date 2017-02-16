@@ -5,57 +5,50 @@ a {
     color: orange;
 	text-decoration: none;
 }
-p {
-    display: inline-block;
-    text-decoration: none;
-	margin:inherit;
-    font-size: 9px;
-      font-family: Trebuchet;
-      color: white;
-}
+
 a:hover {
     color: red;
 }
 h1 {
   padding: 5px;
+  margin: auto;
   font-weight: bold;
   font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
   font-size: 20px;
+  text-align: center;
   display: block;
-  color: aquamarine;
+  color: white;
   text-decoration: none;
 }
 h2 {
-  font-weight: bold;
+  font-weight: bold italic;
   font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
-  font-size: 10px;
-  float: right;
-  color: white;
-  text-decoration: none;
+  display: inline;
+  text-align: center;
+  color: orange;
+  font-variant: small-caps;
 }
 h3 {
   font-weight: bold;
   font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
-  font-size: 15px;
+  font-size: 12px;
+  text-align: left;
   color: black;
   text-decoration: none;
 }
 h4 {
-  font-weight: bold;
+  font-weight: bold italic;
   font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
-  font-size: 10px;
+  display: inline;
+  text-align: center;
   color: black;
-  text-decoration: none;
+  font-variant: bold;
 }
 body {
   background-color: black;
 }
-.gangShoes2 {
-  margin: 5px;
-}
 .gangShoes {
   margin: 5%;
-  padding-left: 10%;
 }
 .container2 {
   background-color: white;
@@ -64,15 +57,14 @@ body {
 .page {
   background-color: white;
   display: inline-block;
-  width: 700px;
-  float:left;
+  width: 720px;
   text-decoration: none;
 }
 .outerWhiteBox {
 	background-color: white;
 	margin: 5% 22% 5% 22%;
 	display: inline-block;
-	width: 700px;
+	width: 720px;
 	text-decoration: none;
 }
 .whiteBox {
@@ -88,15 +80,21 @@ body {
 .orangeBackground {
   background-image:url(images/WebBackground.png);
   display: inline-block;
+  margin: 5px;
+  padding: 3px;
   width: 700px;
   min-height: 100px;
   text-decoration: none;
 }
+/*
 .innerOrangeBackground {
   background-image:url(images/WebBackground.png);
   display: inline-block;
+  margin:inherit;
+  width: 700px;
   text-decoration: none;
 }
+*/
 .button {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   text-decoration: inherit;
@@ -125,36 +123,8 @@ body {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size: 9px;
 }
-.leftColumn {
-  float: left;
-  width: 70%;
-  position: fixed;
-  left: -30px;
-}
-.leftColumn2 {
-  width: 200px;
-  margin: 0 0 0 30px;
-  background-color: red;
-}
-.rightColumn {
-  width: 200px;
-  margin: 0 0 0 30px;
-  background-color: blue;
-}
-.spare {
-	border-radius: 10px;
-	-moz-border-radius: 10px;
-	background: black;
-	color: aquamarine;
-	width: 10%;
-	height: 10px;
-	padding: 10px;
-	font-style: oblique;
-	font-family: sans-serif;
-	float: center;
-	margin: auto;
-	text-align: left;
-}
+
+
 .clickMe {
 	border:#CCC solid 2px;
 	border-radius: 10px;
@@ -168,12 +138,11 @@ body {
 	text-align: left;
 }
 .clickMeImage {
-	padding: 5px;
-    text-decoration: none;
-	height: 25px;
-	margin: inherit;
-	padding-top: 10px;
-	float: left;
+  text-decoration: none;
+	margin: auto;
+  width: 100%;
+  align: center;
+  padding: 5px;
 	display:inline-block;
 }
 .clickMe:hover {
@@ -183,24 +152,26 @@ body {
 .inline {
   padding: 5px;
   display: inline;
-  margin-left:10px;
-  margin-right: 10px;
-  border-top: solid black;
+  margin: auto;
   font-size: 15px;
     float: left;
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     color: white;
 }
+
 .inline2 {
-  display: inline;
-  margin-left: 5px;
-  margin-right: 5px;
-  font-size: 15px;
-    float: center;
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    color: #60F;
+  padding: 1px;
+  display: inline-block;
+  width: 100%;
+  float: left;
 }
 .inline3 {
+  padding: 1px;
+  display: inline-flex;;
+  width: 100%;
+  float: left;
+}
+.bottomMenu {
   padding: 1px;
   display: inline;
   float: left;
