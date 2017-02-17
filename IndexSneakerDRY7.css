@@ -5,14 +5,12 @@ a {
     color: orange;
 	text-decoration: none;
 }
-
 a:hover {
     color: red;
 }
 h1 {
   padding: 5px;
   margin: auto;
-  font-weight: bold;
   font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
   font-size: 20px;
   text-align: center;
@@ -21,34 +19,48 @@ h1 {
   text-decoration: none;
 }
 h2 {
-  font-weight: bold italic;
-  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
   display: inline;
+  margin-left: 10px;
   text-align: center;
+  font-size:12px;
   color: orange;
-  font-variant: small-caps;
 }
 h3 {
-  font-weight: bold;
   font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
   font-size: 12px;
   text-align: left;
-  color: black;
+  color: white;
   text-decoration: none;
 }
 h4 {
-  font-weight: bold italic;
-  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
+  font-size:10px;
+  font-style: thin;
+  display: inline-block;
+  text-align: center;
+  color: white;
+}
+h5 {
+  font-family: Helvetica, sans-serif;
+  font-size: 9px;
   display: inline;
   text-align: center;
+  color: red;
+
+}
+h6 {
+  padding: 5px;
+  margin: auto;
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  text-align: center;
+  display: block;
   color: black;
-  font-variant: bold;
+  text-decoration: none;
 }
 body {
   background-color: black;
-}
-.gangShoes {
-  margin: 5%;
 }
 .container2 {
   background-color: white;
@@ -71,49 +83,47 @@ body {
 	background-color: white;
 	display: inline-block;
 	margin: 5%;
-	padding: 3px;
-	letter-spacing: normal;
-	text-align: justify;
+	padding: 10px;
+	text-align: right;
 	vertical-align: middle;
 	white-space: pre;
+}
+.pinkContainer {
+  background-color: #FCF;
+  display: inline-block;
+  margin: 2px;
+  padding: 2px;
+  width: 700px;
+  float: center;
+  text-decoration: none;
 }
 .orangeBackground {
   background-image:url(images/WebBackground.png);
   display: inline-block;
-  margin: 5px;
-  padding: 3px;
+  margin: 2px;
+  padding: 2px;
   width: 700px;
   min-height: 100px;
   text-decoration: none;
 }
-/*
-.innerOrangeBackground {
-  background-image:url(images/WebBackground.png);
-  display: inline-block;
-  margin:inherit;
-  width: 700px;
-  text-decoration: none;
-}
-*/
 .button {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   text-decoration: inherit;
   font-size: 15px;
   float: right;
   color: white;
-  background-color: #F0F;
-  border: 1px #444444 solid;
+  background-color: white;
   border-radius: 10px;
-  -moz-border-radius: 10px;
+  -moz-border-radius: 7px;
   margin: 10px;
   display:inline-block;
 }
-.pinkContainer {
-  overflow:hidden;
+.pink {
   background-color: #FCF;
   display: inlin-block;
   width: 700px;
 }
+
 .textHere {
 	display: inline;
 	color: black;
@@ -123,20 +133,17 @@ body {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size: 9px;
 }
-
-
 .clickMe {
-	border:#CCC solid 2px;
-	border-radius: 10px;
+	border:#CCC solid .5px;
+	border-radius: 5px;
 	-moz-border-radius: 10px;
 	color: orange;
 	height: 10px;
 	padding: 5px;
 	font-family: sans-serif;
     text-decoration: none;
-	margin: 10px;
-	text-align: left;
 }
+
 .clickMeImage {
   text-decoration: none;
 	margin: auto;
@@ -151,19 +158,16 @@ body {
 }
 .inline {
   padding: 5px;
-  display: inline;
-  margin: auto;
-  font-size: 15px;
-    float: left;
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    color: white;
+  display: inline-block;
+  margin: 5px 5px 5px 40px;
 }
 
 .inline2 {
-  padding: 1px;
+  padding: 5px;
+  margin-left: 15px;
   display: inline-block;
   width: 100%;
-  float: left;
+  float: right;
 }
 .inline3 {
   padding: 1px;
@@ -171,10 +175,19 @@ body {
   width: 100%;
   float: left;
 }
+.inline4 {
+  padding: 5px;
+  display: inline-block;
+  margin: 5px 5px 5px 40px;
+  float:left;
+  width: inherit;
+}
 .bottomMenu {
   padding: 1px;
-  display: inline;
-  float: left;
+  display: inline-block;
+  width: inherit;
+  float: right;
+  text-align: right;
 }
 .gradient {
   background-color: black;
